@@ -1,0 +1,494 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin:5px;
+    padding: 0;
+}
+
+body{
+  background-color: rgb(27, 25, 25);
+  font-family: "Roboto Flex", sans-serif;
+  color: white;
+  margin-left: 0;
+  padding: 0 15px;
+  font-size: 16px;
+
+}
+
+
+
+h1,
+h3{
+    color:rgb(163, 235, 40);
+}
+
+
+
+nav{
+  background-color: rgb(27, 25, 25) !important;
+   color:rgb(163, 235, 40) !important;
+}
+
+ .navbar-nav .nav-link {
+  background-color: rgb(27, 25, 25) !important;
+   color:white;
+}
+
+
+.navbar-toggler{
+  color: #fff;
+}
+
+li a:hover{
+  color: #fff !important;
+}
+
+.frase{
+    justify-content: center;  
+    align-items: center;    
+    height: 300px;            
+    text-align: center;  
+    position:  relative;
+    top: 0;    
+}
+
+.cta{
+  background-color: rgb(163, 235, 40);
+  color: black;
+  border: 1px solid white;
+  border-radius:8px ;
+}
+
+.cta:hover{
+  color: #fff;
+   background-color: rgb(163, 235, 40) !important;
+}
+
+hr {
+  height: 5px; 
+  width: 100%;
+  color: rgb(163, 235, 40);
+}
+
+@media (min-width:992px) {
+  body{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+@media(max-width:768px){
+    .conteiner{
+        flex-direction: column;
+        text-align: center;
+    }
+    .col-4,
+    .col-6,
+    .row{
+      width: 100%; 
+    }
+     body {
+    font-size: 18px;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+
+    .meu-card{
+      width:auto;
+    }
+}
+    
+
+  @media (max-width: 576px) {
+    .col-4,
+    .col-6,
+    .row{
+      width: 100%;  
+    }
+    
+  }
+
+.conteiner{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.conteiner img{
+    width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  
+ 
+}
+
+
+
+     
+     .footer1{
+        color: white;   
+        background-color: rgb(27, 25, 25) ;
+        padding: 8px;
+        text-align: center;
+       }
+        footer a i {
+          color: rgb(163, 235, 40);
+          font-size: 18px;
+          margin: 0 8px;
+          transition: transform 0.3s ease, color 0.3s ease;
+          text-decoration: none;
+        }
+
+        footer a i:hover {
+          color: white;
+          transform: scale(1.2);
+          text-decoration: none;
+        }
+
+        a{
+           color: white;
+           text-decoration: none;
+        }
+  
+
+     li a{
+        color: rgb(255, 255, 255);
+        padding: 15px;
+        margin-left: 0;
+     }
+
+
+   .center{
+    text-align: center;
+    justify-content: center;
+   }
+
+
+ .meu-card{
+  border-radius: 0 ;
+  display: inline;
+ }
+   .img-card{
+    border-radius: 0;
+    margin-top: 3px;
+    margin: 5px;
+   }
+
+   .active{
+    color:  rgb(163, 235, 40) !important ;
+   }
+
+
+   a:hover{
+      color: rgb(163, 235, 40);
+   }
+
+   .navbar {
+    background-color: #111;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar a {
+    color: rgb(163, 235, 40);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+/* 👇 EFEITO HOVER */
+.navbar a:hover {
+    color: rgb(163, 235, 40) !important;
+    transform: scale(1.05);
+}
+
+/* opcional: link ativo */
+.navbar a:active {
+    transform: scale(0.95);
+}
+
+ /* Força o fundo escuro e texto claro na descrição para qualquer tela */
+.gslide-description {
+    background: #000 !important; /* Fundo preto */
+    color: #fff !important;       /* Texto branco */
+}
+
+/* Garante que o título e a descrição dentro do box sejam brancos */
+.gslide-title, .gslide-desc {
+    color: #fff !important;
+}
+
+/* Ajuste específico para telas grandes (onde ela costuma mudar de estilo) */
+@media (min-width: 769px) {
+    .gslide-description.description-bottom {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+}
+
+/* intruções de rota */
+
+/* Container das instruções */
+.leaflet-routing-container {
+  background: #ffffff; /* fundo */
+  color: #000000;      /* cor geral do texto */
+}
+
+/* Texto das instruções */
+.leaflet-routing-container .leaflet-routing-alt {
+  color: #000000;
+}
+
+/* Distância/tempo */
+.leaflet-routing-container .leaflet-routing-alt h2,
+.leaflet-routing-container .leaflet-routing-alt h3 {
+  color: #000000;
+}
+
+/* Lista de passos */
+.leaflet-routing-container .leaflet-routing-instructions li {
+  color: #000000;
+}
+
+/*estilo lista */
+
+.estilo{
+  align-items: center;
+  border: 1px solid  rgb(163, 235, 40);
+display: block;
+
+
+border-radius: 8px;
+
+}
+
+.estilo img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+}
+
+/* Estilos para o formulário de simulação de orçamento */
+#simulacao-orcamento {
+ margin-top: 20px;
+ padding: 20px;
+ border: 1px solid #CFF250;
+ border-radius: 8px;
+ background-color: #212226;
+}
+#simulacao-orcamento form {
+ display: flex;
+ flex-direction: column;
+}
+#simulacao-orcamento label {
+ margin-top: 10px;
+}
+#simulacao-orcamento input,
+#simulacao-orcamento select,
+#simulacao-orcamento textarea,
+#simulacao-orcamento button {
+ margin-top: 5px;
+ padding: 10px;
+ border: 1px solid #CFF250;
+ border-radius: 4px;
+}
+#resultado-simulacao {
+ margin-top: 20px;
+ padding: 10px;
+ border: 1px solid #CFF250;
+ border-radius: 4px;
+ background-color: #212226;
+}
+
+/* Estilos para o FAQ */
+#faq {
+ margin-top: 20px;
+ padding: 20px;
+ border: 1px solid #CFF250;
+ border-radius: 8px;
+ background-color: #212226;
+}
+.faq-item {
+ margin-bottom: 10px;
+}
+.faq-question {
+ cursor: pointer;
+ margin: 0;
+ padding: 10px;
+ background-color: #212226;
+ color: white;
+ border-radius: 4px;
+}
+.faq-answer {
+ display: none;
+ padding: 10px;
+ border: 1px solid #CFF250;
+ border-radius: 4px;
+ background-color: #212226;
+} 
+
+
+ /* Fontes */
+ @import
+url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ /* Reset básico para garantir uma base consistente */
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ /* Corpo da página */
+ body {
+ background-color: #212226;
+ color: #ffffff;
+ font-family: "Lato", sans-serif;
+ line-height: 1.6;
+ }
+ /* Cabeçalho */
+ header {
+ background-color: #212226;
+ padding: 1rem;
+ }
+ header .container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+ #branding h1 {
+ color: #CFF250;
+ margin: 0;
+ }
+ nav ul {
+ list-style: none;
+ display: flex;
+ gap: 1rem;
+ }
+ nav ul li {
+ display: inline;
+}
+ nav ul li a {
+ color: #CFF250;
+ text-decoration: none;
+ }
+ nav ul li a:hover {
+ color: #fff;
+ }
+ /* Conteúdo principal */
+ main {
+ padding: 2rem 0;
+ }
+ h1 {
+ color: #fff;
+ margin-bottom: 1rem;
+ font-size: 2.5rem;
+ }
+ h2 {
+ color: #CFF250;
+ font-size: 2rem;
+ margin-bottom: 1rem;
+ border-bottom: 2px solid #CFF250;
+ padding-bottom: 0.5rem;
+ }
+ h3 {
+ color: #CFF250;
+ font-size: 1.75rem;
+ }
+ p {
+ margin-bottom: 1rem;
+ color: #fff;
+ }
+
+ form {
+ margin-top: 1rem;
+ padding: 1rem;
+ border: 1px solid #CFF250;
+ border-radius: 8px;
+ background-color: black;
+ }
+
+ label {
+ margin-top: 10px;
+ color: #fff;
+ }
+ input, textarea {
+ width: 100%;
+ padding: 10px;
+ border: 1px solid #CFF250;
+ border-radius: 4px;
+ background-color: #333;
+ color: #fff;
+ }
+ input[type="file"] {
+ padding: 0;
+ }
+ input[type="submit"] {
+ background-color: #CFF250;
+ border: none;
+ color: #212226;
+ cursor: pointer;
+ padding: 10px;
+ border-radius: 4px;
+ }
+ input[type="submit"]:hover {
+ background-color: #212226;
+ border-color: #CFF250;
+ color: #CFF250;
+ }
+ /* Tabela de Projetos */
+ table {
+ width: 100%;
+ border-collapse: collapse;
+ margin-top: 1rem;
+ }
+ table, th, td {
+ border: 1px solid #ddd;
+ } 
+
+ th, td {
+ padding: 8px;
+ text-align: left;
+ }
+ th {
+ background-color: #333;
+ color: #CFF250;
+ }
+ td {
+ background-color: #333;
+ }
+ img {
+ max-width: 150px;
+ height: auto;
+ }
+ /* Layout responsivo */
+ @media (max-width: 768px) {
+ nav ul {
+ flex-direction: column;
+ text-align: center;
+ }
+ nav ul li {
+ margin: 0.5rem 0;
+ }
+ .container {
+ flex-direction: column;
+ }
+ }
+ 

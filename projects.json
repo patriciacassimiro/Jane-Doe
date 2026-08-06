@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Aplica\u00e7\u00e3o para administrar tarefas pessoais",
+        "description": "Aplica\u00e7\u00e3o ajuda a organizar listas de tarefas estipulando tempo necess\u00e1rio para realizar e distribui num calend\u00e1rio , mandando notifica\u00e7\u00f5es  e alertas para realizar tarefas.",
+        "image": "uploads\/app.jpg"
+    },
+    {
+        "name": "App para administrar tarefas pessoais",
+        "description": "Ajuda a organizar listas de tarefas estipulando tempo necess\u00e1rio para realizar e distribui num calend\u00e1rio , mandando notifica\u00e7\u00f5es e alertas para realizar tarefas.",
+        "image": "uploads\/app.jpg"
+    },
+    {
+        "name": "Otmiza\u00e7\u00e3o SEO",
+        "description": "Otimiza\u00e7\u00e3o de um site para melhor rastreabilidade.",
+        "image": "uploads\/seo.jpg"
+    }
+]
