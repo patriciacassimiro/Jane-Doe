@@ -1,4 +1,4 @@
-<footer class="footer1  col-12">
+<footer class="footer1">
       <p>&copy;2025 Jane Doe | Web Developer | <a href="#">Política de privacidade</a>   <a href="#">Termos de uso</a></p>
 
           <a href="https://www.facebook.com/" style="color: rgb(163, 235, 40)" target="_blank">

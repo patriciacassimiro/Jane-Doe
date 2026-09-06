@@ -2,13 +2,13 @@
 
 include "db.php";
 
-$username = $_POST["username"];
-$email = $_POST["email"];
-$password = $_POST["password"];
-$confirm = $_POST["confirm_password"];
-$userType = $_POST["user_type"];
+$username = trim($_POST["username"] ?? "");
+$email = trim($_POST["email"] ?? "");
+$password = $_POST["password"] ?? "";
+$confirm = $_POST["confirm_password"] ?? "";
+$userType = "user";
 
-if($password != $confirm){
+if ($password !== $confirm) {
 
     die("As senhas são diferentes");
 
@@ -21,7 +21,7 @@ $hash = password_hash(
 
 $profilePic = "";
 
-if(isset($_FILES["profile_pic"])){
+if (isset($_FILES["profile_pic"]) && $_FILES["profile_pic"]["error"] === UPLOAD_ERR_OK) {
 
     $profilePic =
         "uploads/" .

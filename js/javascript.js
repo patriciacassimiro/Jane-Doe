@@ -86,8 +86,10 @@ telefone = telefone.trim().replace(/\s/g, "");
 // acordeem==on 
 
 $(document).ready(function () {
- $('.faq-question').on('click', function () {
- $(this).next('.faq-answer').slideToggle();
- $(this).parent().siblings().find('.faq-answer').slideUp();
- });
-}); 
+   $('.faq-question').on('click', function () {
+      var resposta = $(this).next('.faq-answer');
+
+      $('.faq-answer').not(resposta).stop(true, true).slideUp();
+      resposta.stop(true, true).slideToggle();
+   });
+});
